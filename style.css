@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: solid grey 5px;
+}
+
+/* Outer flex container */
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+/* Inner flex containers */
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+.gallery-container img {
+    width: 200px; 
+    height: 250px;
+    border: 2px solid black; 
+    margin: 5px; 
+}
+
